@@ -31,6 +31,12 @@ move "DSPTool.exe" ..\
 cd ..\
 rmdir dolphin-mpn-advanced-main /s /q
 DEL main.zip
+rmdir User\Config /s /q
+rmdir User\GameSettings /s /q
+rmdir User\GC /s /q
+rmdir User\GBA /s /q
+rmdir User\Load /s /q
+rmdir User\Wii /s /q
 move Config User\
 move GameSettings User\
 move GC User\
@@ -39,4 +45,3 @@ move Load User\
 move Wii User\
 start Dolphin-MPN
 :Exit
-EXIT
